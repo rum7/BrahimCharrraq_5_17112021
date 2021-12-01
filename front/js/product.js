@@ -84,6 +84,10 @@ function ajouter(currentProduct) {
         'id' : currentProduct._id, 
         'name' : currentProduct.name,
         'color' : selectProdColor,
+        "imageUrl": currentProduct.imageUrl,
+        "altTxt": currentProduct.altTxt,
+        "description": currentProduct.description,
+        'price' : currentProduct.price,
         'qty' : 0
     };
     
